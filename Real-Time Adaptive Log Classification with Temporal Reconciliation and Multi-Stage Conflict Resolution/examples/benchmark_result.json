@@ -1,0 +1,13 @@
+{
+  "benchmark": "FastAPI TestClient POST /events with full classification and temporary SQLite persistence",
+  "measured_at_utc": "2026-08-15T10:39:29.435233+00:00",
+  "events": 100,
+  "seconds": 3.0189,
+  "events_per_second": 33.13,
+  "baseline_rss_mb": 464.38,
+  "peak_rss_mb": 584.74,
+  "memory_limit_mb": 512,
+  "memory_limit_met": false,
+  "throughput_target_events_per_second": 100,
+  "throughput_target_met": false
+}

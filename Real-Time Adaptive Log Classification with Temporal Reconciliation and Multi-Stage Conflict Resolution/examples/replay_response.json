@@ -1,0 +1,12 @@
+{
+  "status": "replayed",
+  "audit_records": [
+    {
+      "event_id": "demo-001",
+      "event_timestamp": "2026-08-15T10:30:00Z",
+      "decision_timestamp": "2026-08-15T10:30:00Z",
+      "configuration_version": "pipeline-v1",
+      "final_decision": {"label": "System Notification", "confidence": 1.0, "conflict_detected": false, "selected_stage": "regex", "resolution_reason": "Representative output; actual signal set depends on the installed model."}
+    }
+  ]
+}

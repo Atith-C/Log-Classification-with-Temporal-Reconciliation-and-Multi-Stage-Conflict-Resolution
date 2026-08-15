@@ -1,0 +1,7 @@
+{
+  "status": "classified",
+  "event": {"id": "demo-001", "timestamp": "2026-08-15T10:30:00Z", "source": "ModernCRM", "message": "Backup completed successfully."},
+  "signals": [{"stage": "regex", "label": "System Notification", "confidence": 1.0, "matched": true, "reason": "Matched predefined pattern: Backup completed successfully\\.?"}],
+  "final_decision": {"label": "System Notification", "confidence": 1.0, "conflict_detected": false, "selected_stage": "regex", "resolution_reason": "Selected 'System Notification' with weighted score 1.000000; ties are resolved by individual confidence, fixed stage priority, then label order."},
+  "reconciliation": {"was_late": false, "state_updated": true, "effective_event_timestamp": "2026-08-15T10:30:00Z", "replayed_event_count": 1, "reason": "State was reconciled from chronological event history."}
+}

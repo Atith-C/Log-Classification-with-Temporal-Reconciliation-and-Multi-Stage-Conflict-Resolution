@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "rules": [
+    {"id": "workflow-error", "keywords": ["failed"], "label": "Workflow Error", "confidence": 0.92},
+    {"id": "deprecation-warning", "keywords": ["deprecated"], "label": "Deprecation Warning", "confidence": 0.95},
+    {"id": "retirement-warning", "keywords": ["retired"], "label": "Deprecation Warning", "confidence": 0.95},
+    {"id": "unsupported-warning", "keywords": ["no longer supported"], "label": "Deprecation Warning", "confidence": 0.95}
+  ],
+  "default": {"label": "Unclassified", "confidence": 0.0}
+}
