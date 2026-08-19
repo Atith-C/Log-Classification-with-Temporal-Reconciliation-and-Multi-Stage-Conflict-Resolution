@@ -182,5 +182,3 @@ the 100 events/sec and 512 MB targets were met on your machine.
 
 - See [docs/API.md](docs/API.md) for the compact endpoint reference.
 - Example response files are in `examples/`.
-- Do not commit `training/.env`, `.venv`, or `training/data/*.sqlite3`.
-- Before submission, create a public GitHub repository and add its URL.
