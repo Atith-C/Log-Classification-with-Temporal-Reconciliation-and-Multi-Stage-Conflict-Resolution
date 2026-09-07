@@ -177,8 +177,3 @@ uses temporary SQLite persistence, measures steady-state throughput and process
 RAM, and writes the result to `examples/benchmark_result.json`. The result is
 hardware- and model-cache-dependent. See the JSON output to determine whether
 the 100 events/sec and 512 MB targets were met on your machine.
-
-## Documentation
-
-- See [docs/API.md](docs/API.md) for the compact endpoint reference.
-- Example response files are in `examples/`.
